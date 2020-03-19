@@ -1,5 +1,9 @@
 package com.jcheck.tools;
 
+/*
+    数组工具类
+ */
+
 public class ArraySort {
     private ArraySort(){}
 
