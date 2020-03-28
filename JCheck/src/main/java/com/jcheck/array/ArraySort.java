@@ -1,4 +1,4 @@
-package com.jcheck.tools;
+package com.jcheck.array;
 
 /**
  * 数组工具类

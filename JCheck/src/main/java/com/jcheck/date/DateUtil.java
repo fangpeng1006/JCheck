@@ -1,4 +1,4 @@
-package com.jcheck.tools;
+package com.jcheck.date;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
