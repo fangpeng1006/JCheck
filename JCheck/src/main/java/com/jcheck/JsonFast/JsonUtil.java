@@ -10,7 +10,7 @@ public class JsonUtil {
 
     public static void main(String[] args) throws Exception {
         String s = "{\"msg\": \"success\", \"data\": [{\"xm\": \"张三\", \"birthdate\": \"1990-01-18 11:10:41\"},{\"xm\": \"李四\", \"birthdate\": \"1991-01-18 11:10:41\"}]}";
-        //json字符串转Map
+        //json字符串转Map//
         Map<String,Object> jsonToMap = JSONObject.parseObject(s);
         System.out.println("jsonToMap："+jsonToMap);
         //Map转json字符串
