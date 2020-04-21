@@ -4,4 +4,12 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>image</servlet-name>
+    <servlet-class>com.jcheck.web.RandomImage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>image</servlet-name>
+    <url-pattern>/image</url-pattern>
+  </servlet-mapping>
 </web-app>
