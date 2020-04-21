@@ -13,7 +13,7 @@ public class JsonUtil {
         //json字符串转Map//
         Map<String,Object> jsonToMap = JSONObject.parseObject(s);
         System.out.println("jsonToMap："+jsonToMap);
-        //Map转json字符串
+        //Map转json字符串//
         String mapToJson = JSON.toJSONString(jsonToMap);
         System.out.println("mapToJson："+mapToJson);
         //json字符串转List
