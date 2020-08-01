@@ -11,6 +11,11 @@ import java.io.IOException;
 import java.util.Random;
 import java.util.WeakHashMap;
 
+
+/**
+ * 适用于jsp的 获取图片验证码的方法一
+ * 使用getOutputStream 传输图片到前端或者jsp
+ */
 public class RandomImage extends HttpServlet {
 
     public static final int WEIDTH=120;

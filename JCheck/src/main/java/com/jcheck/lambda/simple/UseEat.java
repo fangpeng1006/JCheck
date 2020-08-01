@@ -4,6 +4,7 @@ public class UseEat {
     public static void main(String[] args) {
         //方式1：通过接口的实现类
         EatableImpl e = new EatableImpl();
+        e.eat();
         useEat(e);
         System.out.println("-------------------------");
 
@@ -19,6 +20,7 @@ public class UseEat {
         useEat(()->{
             System.out.println("lambda");
         });
+        e
     }
 
     public static void useEat(Eatable e){
