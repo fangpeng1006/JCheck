@@ -20,7 +20,6 @@ public class UseEat {
         useEat(()->{
             System.out.println("lambda");
         });
-        e
     }
 
     public static void useEat(Eatable e){
